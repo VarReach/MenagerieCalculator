@@ -1,0 +1,52 @@
+.runes-list {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  margin: -20px auto 0;
+}
+
+.runes-list-list {
+  margin: 0;
+  display: inline-grid;
+  grid-template-columns: 75px 75px 75px;
+  background-color: #00000064;
+  box-shadow: 0 0 4px 2px #00000064;
+  border-radius: 5px;
+  padding: 10px;
+  grid-gap: 4px;
+}
+
+.runes-list-rune {
+  background-color: #3a3a46;
+}
+.runes-list-rune.empty {
+  border: 1px solid #848484;
+}
+.runes-list-rune.empty .runes-list-image {
+  opacity: 0 !important;
+}
+.runes-list-rune, .runes-list-image {
+  width: 75px;
+  height: 75px;
+}
+
+.runes-list-rune.inactive, .runes-list-image.inactive {
+  filter: grayscale(100);
+  opacity: 0.4;
+}
+
+.runes-list-rune.purple:not(.empty) {
+  background-color: #352c56;
+}
+.runes-list-rune.red:not(.empty) {
+  background-color: #481b24;
+}
+.runes-list-rune.green:not(.empty) {
+  background-color: #1a2822;
+}
+.runes-list-rune.blue:not(.empty) {
+  background-color: #13333b;
+}
+.runes-list-image {
+  border: 1px solid #848484;
+}

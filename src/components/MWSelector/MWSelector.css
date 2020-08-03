@@ -1,0 +1,32 @@
+.mw-selector {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 4px;
+  background-color: #3a3a46;  
+}
+.mw-selector-button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.mw-selector-button:not(:disabled):hover {
+  cursor: pointer;
+  border: 1px solid #f8d876;
+}
+
+.mw-selector-image {
+  object-fit: cover;
+  width: 100%;
+  transition: opacity 0.1s;
+}
+
+.faded-mw .mw-selector-image {
+  filter: grayscale(100);
+  opacity: 0.5;
+}

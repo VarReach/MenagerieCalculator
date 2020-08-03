@@ -1,0 +1,9 @@
+.mw-selector-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: auto 5px;
+  background-color: #00000064;
+  box-shadow: 0 0 4px 2px #00000064;
+  border-radius: 5px;
+}

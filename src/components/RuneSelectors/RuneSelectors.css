@@ -1,0 +1,15 @@
+.rune-select-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  background-image: url('../../resources/images/chalice.png');
+  width: 1160px;
+  margin: 0 auto;
+}
+.runes {
+  display: grid;
+  width: 750px;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: 126px 126px;
+  padding: 0;
+}

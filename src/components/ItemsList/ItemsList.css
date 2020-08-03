@@ -1,0 +1,9 @@
+.items {
+  display: flex;
+  width: 1040px;
+  padding: 10px;
+  margin: -20px auto 0;
+  background-color: #00000064;
+  box-shadow: 0 0 4px 2px #00000064;
+  border-radius: 5px;
+}

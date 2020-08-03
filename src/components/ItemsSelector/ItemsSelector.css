@@ -1,0 +1,20 @@
+.items-selection-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.items-selector {
+  padding: 10px;
+  height: 292px;
+  width: 836px;
+  margin: 0 10px;
+  background-color: #00000064;
+  box-shadow: 0 0 4px 2px #00000064;
+  border-radius: 5px;
+}
+
+.items-selector-section {
+  display: inline-flex;
+  flex-direction: column;
+}
