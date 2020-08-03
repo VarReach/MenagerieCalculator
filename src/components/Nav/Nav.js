@@ -7,7 +7,7 @@ function App() {
   const { activeClass, setActiveClass, items, toggleItems } = useContext(Context);
   function renderNavButtons() {
     return classes.map((className, i) => {
-      if (activeClass == i) {
+      if (activeClass === i) {
         return (
           <li key={i} className="nav-button-container">
             <button className="nav-button active-nav-button">{className}</button>

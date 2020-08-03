@@ -1,7 +1,6 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './ArmorMWSelector.css';
 import { armorMWs } from '../../resources/store';
-import Context from '../../context/Context';
 import MWSelector from '../MWSelector/MWSelector';
 
 function ArmorMWSelector() {

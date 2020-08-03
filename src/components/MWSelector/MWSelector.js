@@ -3,7 +3,7 @@ import './MWSelector.css';
 import Context from '../../context/Context';
 
 export default function MWSelector(props) {
-  const { setMasterwork, setTempItem, item, armortype, masterwork, rune0, rune1, rune2 } = useContext(Context);
+  const { setMasterwork, setTempItem, item, armortype, masterwork } = useContext(Context);
 
   let status = false;
   //true means faded, false means active

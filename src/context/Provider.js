@@ -35,7 +35,6 @@ export default class Provider extends Component {
     const newState = {};
     (activeClass) && (newState.activeClass = activeClass);
     (items) && (newState.items = items);
-    console.log(items, activeClass);
     if (activeClass || items) {
       this.setState(newState);
     }

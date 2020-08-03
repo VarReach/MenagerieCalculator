@@ -6,16 +6,7 @@ import Context from '../../context/Context';
 function RunesList() {
   const { setActiveItem, rune0, rune1, rune1Ids, rune2} = useContext(Context);
 
-  function determineActiveRune0(rune, j) {
-
-  }
-  function determineActiveRune1(rune, j) {
-
-  }
-
   function renderRunes(j) {
-
-    //Fix this up later, sloppy method.
     return runes.map((rune, i) => {
       //0 = active, 1 = temp, 2 = deactivated
       let active = 0;
@@ -74,7 +65,7 @@ function RunesList() {
               <img className="runes-list-image" src={require(`../../resources/images/${rune.image}`)} alt={rune.name}/>
             </li>
         );
-      } else if (active === 2) {
+      } else {
         return (
           <li 
             key={i} className={`empty runes-list-rune list-${j} ${rune.color}`}

@@ -35,7 +35,7 @@ function App() {
         <Tooltip/>
       </main>
       <footer role="contentinfo" className="footer">
-        Made by Invis. Credit to <a className="footer-link" href="https://www.reddit.com/user/BunnyBot5000">/u/BunnyBot5000</a> for making the spreadsheet.
+        Credit to <a className="footer-link" href="https://www.reddit.com/user/BunnyBot5000">/u/BunnyBot5000</a> for making the spreadsheet.
       </footer>
     </div>
   );
